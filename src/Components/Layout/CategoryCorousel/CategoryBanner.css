@@ -1,0 +1,104 @@
+.catBanner {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+.catBan_link {
+  padding: 25px 15px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  max-height: 366px;
+  text-align: center;
+}
+.catBan_image {
+  position: relative;
+  margin: 0 auto;
+}
+.catBan-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  opacity: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+.catBan_Title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+}
+.catBan_deal {
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+}
+.catBan_brands {
+  opacity: 0.6;
+  padding-top: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+}
+/******************************************/
+.CategoryBanner {
+  padding: 25px 25px;
+  /* width: fit-content; */
+  height: 100%;
+  max-height: 366px;
+  background: white;
+  text-align: center;
+  text-decoration: none;
+}
+.CategoryBanner-img {
+  width: 200px;
+  height: 170px;
+  cursor: pointer;
+  object-fit: contain;
+}
+.CategoryBanner-title {
+  font-size: 14px;
+  font-weight: 530;
+  margin-top: 15px;
+  color: black;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+}
+
+.CategoryBanner-Deal {
+  color: #388e3c;
+  padding-top: 8px;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 0;
+  text-overflow: ellipsis;
+  color: rgb(7, 172, 7);
+  font-weight: 300;
+}
+
+.CategoryBanner-Brands {
+  opacity: 0.6;
+  color: black;
+  padding-top: 7px;
+
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.CategoryBanner-img:hover {
+  transform: scale(1.1);
+}

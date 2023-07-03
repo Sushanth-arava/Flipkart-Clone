@@ -1,0 +1,9 @@
+.Home-ProductCarousel {
+  max-height: 352px;
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

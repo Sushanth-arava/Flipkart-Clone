@@ -1,0 +1,137 @@
+.bestof_container {
+  margin: 0 auto;
+  min-width: 978px;
+  max-width: 1680px;
+  padding: 8px;
+  width: 100%;
+  position: relative;
+}
+.bb {
+  display: block;
+}
+.col-12-12 {
+  width: 100%;
+}
+.box {
+  background: #fff;
+}
+.bo_header {
+  padding: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+.bo_head_title {
+  font-weight: 500;
+  font-size: 24px;
+}
+.bo_head_count {
+  margin-top: 8px;
+  opacity: 0.5;
+}
+/****************/
+.heading {
+  border: 1px solid rgb(216, 21, 21);
+  padding: 32px;
+}
+.bo_title {
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+}
+
+.bo_count {
+  margin-top: 8px;
+  opacity: 0.5;
+  color: black;
+}
+@media (max-width: 768px) {
+  .col-md-10 {
+    margin-right: 2px;
+  }
+}
+
+/****************/
+.bo_products_cont {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.bo_product_item {
+  width: 100%;
+}
+.bo_prod {
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.lll {
+  grid-template-columns: repeat(4, 1fr);
+}
+.bo_product_link {
+  padding: 25px 15px;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  max-height: 366px;
+  text-align: center;
+}
+.bo_product_image {
+  position: relative;
+  margin: 0 auto;
+}
+.bo_product_image img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  opacity: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+.bo_product_image img:hover {
+  transform: scale(1.1);
+}
+.bo_product_name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: black;
+  text-overflow: ellipsis;
+}
+.bo_product_deal {
+  color: #388e3c;
+  padding-top: 8px;
+  white-space: nowrap;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bo_product_brand {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0.6;
+  padding-top: 7px;
+  font-weight: 200px;
+  color: rgb(102, 102, 102);
+}
+@media (max-width: 1140px) {
+  .bo_product_item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bo_prod {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .bo_product_item {
+    width: 100%;
+  }
+}
