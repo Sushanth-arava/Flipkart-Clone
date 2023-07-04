@@ -46,6 +46,7 @@ const Bestof = ({ CategoryProducts, AddCategory }) => {
     // </div>
   );
 };
+//This is version 2
 // export default Bestof;
 const mapStateToProps = (state) => {
   return {
